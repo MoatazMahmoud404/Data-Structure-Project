@@ -44,9 +44,9 @@ Stores historical data pertaining to orders and receipts.
 **Code Structure Diagram:**
 For a visual representation of the code structure, please refer to the PDF document available in the `Source_File` folder. The document, named "Code_Structure_Diagram.pdf," provides insightful diagrams illustrating the architecture and organization of the code.
 
-[View Code Structure Diagram (PDF)](Data-Structure-Project/blob/main/(LMS)_Diagram.pdf)
+[View Code Structure Diagram (PDF)]((LMS)_Diagram.pdf)
 
-![View Code Structure Diagram (Photo)](Data-Structure-Project/blob/main/(LMS)_Diagram.png)
+![View Code Structure Diagram (Photo)]((LMS)_Diagram.png)
 
 **@0xMoataz  
 Version 01  
