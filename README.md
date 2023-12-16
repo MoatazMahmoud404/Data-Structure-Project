@@ -48,6 +48,29 @@ For a visual representation of the code structure, please refer to the PDF docum
 
 ![View Code Structure Diagram (Photo)]((LMS)_Diagram.png)
 
+## **Screenshots :**
+Here is a screenshot of the Library Management System in action:
+
+1. **Dashboard:**
+   ![Dashboard](Final_Project_04/ScreenShots/Screenshot_(1).png)
+
+2. **Menu of Books:**
+
+   ![Menu of Books](Final_Project_04/ScreenShots/Screenshot_(2).png)
+
+3. **Orders List:**
+   ![Orders List](Final_Project_04/ScreenShots/Screenshot_(3).png)
+
+4. **Check out order and print receipt:**
+   ![Check out order and print receipt](Final_Project_04/ScreenShots/Screenshot_(4).png)
+
+5. **Show receipt:**
+   ![Show receipt](Final_Project_04/ScreenShots/Screenshot_(5).png)
+
+6. **Done Check out:**
+   ![Done Check out](Final_Project_04/ScreenShots/Screenshot_(6).png)
+
+
 **@0xMoataz  
 Version 01  
 12/15/2023**
