@@ -1,5 +1,5 @@
 # Data-Structure-Project
-# Library Management System
+## Library Management System
 
 This C++ code implements a Library Management System (LMS) using a double linked list data structure.
 
@@ -31,6 +31,7 @@ The program provides a menu-driven interface for managing a list of orders, each
 
 12. Calculating the total number of orders and the total price of all orders.
 
+## Description  
 This implementation uses a struct to store the order details, including the number of the receipt, the order name, the quantity, the price per unit, and the total price. The code also includes functions for printing the receipt information for a specific node.
 
 Users take orders and add them to a linked list. They choose an order, or quantity, and can optionally view a PDF before adding. Order details and total price are stored in the list. Multiple orders can be added before finishing.
