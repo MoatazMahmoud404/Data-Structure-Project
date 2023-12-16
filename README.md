@@ -30,7 +30,9 @@ The code also incorporates a function to generate and print a receipt for a comp
 ## Folder Structure:
 
 **Source_File Folder:**
-Contains lecture materials in PDF format, each associated with specific order choices in the program. For instance: "Lec01.pdf", "Lec02.pdf", ...
+Contains lecture materials in PDF format, each associated with specific order choices in the program.
+
+For instance: "Lec01.pdf", "Lec02.pdf", ...
 
 When a user selects a particular order linked to a lecture, the program seamlessly opens the corresponding PDF file. This integration enhances the user experience, providing access to relevant educational content associated with their order choices.
 
