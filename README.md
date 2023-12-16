@@ -1,4 +1,23 @@
 # Data-Structure-Project
+
+## Development Team
+
+
+We are a team of students studying at Ahram Canadian University in the College of Computer Science & AI. Our collaborative efforts are dedicated to the development of the Library Management System.
+
+Here's an overview of our team:
+
+
+| Role                | Name                       | Student ID | Group |
+|---------------------|----------------------------|-------------|-------|
+| Team Leader         | Abdelrahman Ahmed           | 42210259    | A1    |
+| Team Member         | Khaled Ashraf Fitoh         | 42210103    | A1    |
+| Team Member         | Ahmed Haytham Ragab         | 42210126    | A1    |
+| Team Member         | Moataz Mahmoud Mohamed      | 42210055    | A1    |
+
+**Instructor:**
+- **Eng. Dina Ehab**
+
 ## Library Management System
 
 This C++ code implements a robust Library Management System (LMS) utilizing a double linked list data structure.
