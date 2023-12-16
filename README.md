@@ -1,68 +1,45 @@
 # Data-Structure-Project
 ## Library Management System
 
-This C++ code implements a Library Management System (LMS) using a double linked list data structure.
+This C++ code implements a robust Library Management System (LMS) utilizing a double linked list data structure.
 
-The program provides a menu-driven interface for managing a list of orders, each associated with a receipt number.
+The program offers a user-friendly, menu-driven interface for efficiently managing a list of orders, each uniquely identified by a receipt number.
 
-## Users can perform operations such as :
+## Key Operations for Users:
 
-01. Adding orders at the beginning of the list
-
-02. Adding orders at the middle of the list
-
-03. Adding orders at the end of the list
-
-04. Deleting orders at the beginning of the list
-
-05. Deleting orders by position of the list
-
-06. Deleting orders by receipt number of the list
-
-07. Deleting orders at the end of the list
-
-08. Displaying the entire list of orders with their details.
-
-09. Searching for a specific order by its receipt number.
-
+1. Adding orders at the beginning of the list
+2. Adding orders at the middle of the list
+3. Adding orders at the end of the list
+4. Deleting orders at the beginning of the list
+5. Deleting orders by position of the list
+6. Deleting orders by receipt number of the list
+7. Deleting orders at the end of the list
+8. Displaying the entire list of orders with their details.
+9. Searching for a specific order by its receipt number.
 10. Checking if the list is empty
-
 11. Clearing the entire list.
-
 12. Calculating the total number of orders and the total price of all orders.
 
 ## Description  
-This implementation uses a struct to store the order details, including the number of the receipt, the order name, the quantity, the price per unit, and the total price. The code also includes functions for printing the receipt information for a specific node.
+This implementation employs a structured approach by using a `struct` to encapsulate order details, including receipt number, order name, quantity, price per unit, and total price. The code also integrates functions for printing order details and supports viewing corresponding PDF lecture materials associated with specific order choices.
 
-Users take orders and add them to a linked list. They choose an order, or quantity, and can optionally view a PDF before adding. Order details and total price are stored in the list. Multiple orders can be added before finishing.
+Users can seamlessly add orders to the linked list, make choices regarding order quantities, and optionally preview associated lecture materials in PDF format. Order details and total prices are efficiently stored in the linked list, allowing for the addition of multiple orders before finalization.
 
-The code also includes a function to print a receipt for a completed order.
-The system utilizes a double linked list to efficiently handle various operations on the list of orders.
+The code also incorporates a function to generate and print a receipt for a completed order. The system optimally utilizes a double linked list to facilitate various operations on the list of orders.
 
-## About Folders : 
+## Folder Structure:
 
-Source_File folder: Contains lecture materials in PDF format.
+**Source_File Folder:**
+Contains lecture materials in PDF format, each associated with specific order choices in the program. For instance: "Lec01.pdf", "Lec02.pdf", ...
 
-Lecture materials are associated with specific order choices in the program.
+When a user selects a particular order linked to a lecture, the program seamlessly opens the corresponding PDF file. This integration enhances the user experience, providing access to relevant educational content associated with their order choices.
 
-When a user selects a lecture order, the program opens the corresponding PDF file.
+**History Folder:**
+Stores historical data pertaining to orders and receipts.
 
-Example: "Lec01.pdf", "Lec02.pdf", ...
+- `counter_of_receipt.txt:` Maintains a count of issued receipts, incrementing with each printed receipt.
+- `receiptX.txt:` Individual text files storing details of each receipt. The 'X' denotes the receipt number, and files are sequentially created and named. Each receipt file comprehensively includes order details, counts, prices, and the total receipt amount. Open these files using the default text editor (e.g., Notepad) for review.
 
-history folder: Stores historical data related to orders and receipts.
-
-- counter_of_receipt.txt: Keeps track of the number of receipts issued.
- 
-  This counter is incremented each time a receipt is printed.
-  
-- receiptX.txt: Individual text files storing details of each receipt.
-   
-  The X represents the receipt number, and files are created and named sequentially.
-  
-  Each receipt file includes order details, counts, prices, and total receipt amount.
-  
-  The files can be opened using the default text editor (notepad) for review.
-
-@0xMoataz
-Version 01
-12/15/2023
+**@0xMoataz  
+Version 01  
+12/15/2023**
