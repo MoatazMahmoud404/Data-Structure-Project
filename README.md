@@ -52,11 +52,11 @@ Example: "Lec01.pdf", "Lec02.pdf", ...
 history folder: Stores historical data related to orders and receipts.
 
 - counter_of_receipt.txt: Keeps track of the number of receipts issued.
-- 
+ 
   This counter is incremented each time a receipt is printed.
   
 - receiptX.txt: Individual text files storing details of each receipt.
-- 
+   
   The X represents the receipt number, and files are created and named sequentially.
   
   Each receipt file includes order details, counts, prices, and total receipt amount.
