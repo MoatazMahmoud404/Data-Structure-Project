@@ -40,6 +40,12 @@ Stores historical data pertaining to orders and receipts.
 - `counter_of_receipt.txt:` Maintains a count of issued receipts, incrementing with each printed receipt.
 - `receiptX.txt:` Individual text files storing details of each receipt. The 'X' denotes the receipt number, and files are sequentially created and named. Each receipt file comprehensively includes order details, counts, prices, and the total receipt amount. Open these files using the default text editor (e.g., Notepad) for review.
 
+
+**Code Structure Diagram:**
+For a visual representation of the code structure, please refer to the PDF document available in the `Source_File` folder. The document, named "Code_Structure_Diagram.pdf," provides insightful diagrams illustrating the architecture and organization of the code.
+
+[View Code Structure Diagram (PDF)](Data-Structure-Project/(LMS)_Diagram.pdf)
+
 **@0xMoataz  
 Version 01  
 12/15/2023**
