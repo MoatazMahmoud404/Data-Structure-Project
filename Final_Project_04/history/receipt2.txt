@@ -1,0 +1,6 @@
+Number of order : 1
+     Order           Count     Price    Total Price
+    Lec 01             1        2.99        2.99
+    Lec 01             1        2.99        2.99
+Total Receipt :                             5.98
+

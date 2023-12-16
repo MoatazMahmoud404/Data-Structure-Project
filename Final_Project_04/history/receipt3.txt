@@ -1,0 +1,5 @@
+Number of order : 4
+     Order           Count     Price    Total Price
+    Lec 03             3        8.99       26.97
+Total Receipt :                            26.97
+
