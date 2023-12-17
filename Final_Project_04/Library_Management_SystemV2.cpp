@@ -736,10 +736,9 @@ void DoubleLinkeList::TakeOrder(node *newNode)
             new_order++;
             newNode->numOfOrder = new_order;
         }
-
-        newNode->numOfReceipt = counter;
-        counter++;
     }
+    newNode->numOfReceipt = counter;
+    counter++;
 }
 
 void DoubleLinkeList::print_Receipt(node *temp)
