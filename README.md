@@ -95,3 +95,34 @@ Here is a screenshot of the Library Management System in action:
 **@0xMoataz  
 Version 02  
 12/14/2023**
+
+
+## Update to v0.3
+
+### Error Handling with Color Change
+
+This part of version 0.3, is designed for robust error handling in a console application. It features the following components:
+
+- Prints an error message in red with an accompanying alert sound.
+- Introduces a 3-second pause for better user attention.
+- Displays an additional error message to provide context.
+- Resets the text color to its default state.
+
+## Screenshots
+
+![Error](Final_Project_04/ScreenShots/Screenshot_(7).png)
+
+## Code Review
+
+```cpp
+cout << setw(5) << "\aError !! ";
+system("color 04");
+sleep(3);
+cout << setw(05) << "\nPlease enter a valid choice.\n\n";
+system("color 07");
+```
+
+
+**@0xMoataz  
+Version 03  
+12/17/2023**
