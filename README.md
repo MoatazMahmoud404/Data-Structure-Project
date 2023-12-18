@@ -1,7 +1,16 @@
-# Data-Structure-Project
+# Project Name
+
+## Table of Contents
+- [Development Team](#development-team)
+- [Library Management System](#library-management-system)
+- [Key Operations for Users](#key-operations-for-users)
+- [Description](#description)
+- [Folder Structure](#folder-structure)
+- [Code Structure Diagram](#code-structure-diagram)
+- [Screenshots](#screenshots)
+- [Update to v0.3](#update-to-v03)
 
 ## Development Team
-
 
 We are a team of students studying at Ahram Canadian University in the College of Computer Science & AI. Our collaborative efforts are dedicated to the development of the Library Management System.
 
@@ -24,7 +33,7 @@ This C++ code implements a robust Library Management System (LMS) utilizing a do
 
 The program offers a user-friendly, menu-driven interface for efficiently managing a list of orders, each uniquely identified by a receipt number.
 
-## Key Operations for Users:
+## Key Operations for Users
 
 1. Adding orders at the beginning of the list
 2. Adding orders at the middle of the list
@@ -39,14 +48,15 @@ The program offers a user-friendly, menu-driven interface for efficiently managi
 11. Clearing the entire list.
 12. Calculating the total number of orders and the total price of all orders.
 
-## Description  
+## Description
+
 This implementation employs a structured approach by using a `struct` to encapsulate order details, including receipt number, order name, quantity, price per unit, and total price. The code also integrates functions for printing order details and supports viewing corresponding PDF lecture materials associated with specific order choices.
 
 Users can seamlessly add orders to the linked list, make choices regarding order quantities, and optionally preview associated lecture materials in PDF format. Order details and total prices are efficiently stored in the linked list, allowing for the addition of multiple orders before finalization.
 
 The code also incorporates a function to generate and print a receipt for a completed order. The system optimally utilizes a double linked list to facilitate various operations on the list of orders.
 
-## Folder Structure:
+## Folder Structure
 
 **Source_File Folder:**
 Contains lecture materials in PDF format, each associated with specific order choices in the program.
@@ -61,6 +71,7 @@ Stores historical data pertaining to orders and receipts.
 - `counter_of_receipt.txt:` Maintains a count of issued receipts, incrementing with each printed receipt.
 - `receiptX.txt:` Individual text files storing details of each receipt. The 'X' denotes the receipt number, and files are sequentially created and named. Each receipt file comprehensively includes order details, counts, prices, and the total receipt amount. Open these files using the default text editor (e.g., Notepad) for review.
 
+## Code Structure Diagram
 
 **Code Structure Diagram:**
 For a visual representation of the code structure, please refer to the PDF document available in the `Source_File` folder. The document, named "Code_Structure_Diagram.pdf," provides insightful diagrams illustrating the architecture and organization of the code.
@@ -69,7 +80,8 @@ For a visual representation of the code structure, please refer to the PDF docum
 
 ![View Code Structure Diagram (Photo)]((LMS)_Diagram.png)
 
-## **Screenshots :**
+## Screenshots
+
 Here is a screenshot of the Library Management System in action:
 
 1. **Dashboard:**
@@ -96,7 +108,6 @@ Here is a screenshot of the Library Management System in action:
 Version 02  
 12/14/2023**
 
-
 ## Update to v0.3
 
 ### Error Handling with Color Change
@@ -108,7 +119,7 @@ This part of version 0.3, is designed for robust error handling in a console app
 - Displays an additional error message to provide context.
 - Resets the text color to its default state.
 
-## Screenshots
+## Screenshot
 
 ![Error](Final_Project_04/ScreenShots/Screenshot_(7).png)
 
