@@ -19,6 +19,7 @@
     6. [Error Handling](#6-error-handling)
     7. [Reorganizing Code Hierarchy](#7-reorganizing-code-hierarchy)
   - [Additional Improvements](#additional-improvements)
+  
     8. [Limiting the Number of Orders](#8-limiting-the-number-of-orders)
 
 ## Development Team
