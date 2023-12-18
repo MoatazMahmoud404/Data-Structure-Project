@@ -1,6 +1,4 @@
-improve my makedown file without remove any things 
-
-# Project Name
+# Data-Structure-Project
 
 ## Table of Contents
 - [Development Team](#development-team)
@@ -14,7 +12,7 @@ improve my makedown file without remove any things
 - [Code Improvements](#code-improvements)
   - [General Improvements](#general-improvements)
     1. [Use Constants for Magic Numbers](#1-use-constants-for-magic-numbers)
-    2. [Removal of `clearScreen()` Function](#2-removal-of-clearscreen-function)
+    2. [Removal of clearScreen() Function](#2-removal-of-clearscreen-function)
     3. [Private Member Functions](#3-private-member-functions)
     4. [Function Declarations](#4-function-declarations)
     5. [Naming Conventions](#5-naming-conventions)
