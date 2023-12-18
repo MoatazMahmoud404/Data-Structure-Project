@@ -143,8 +143,10 @@ void DoubleLinkeList::TakeOrder(node *newNode)
                 {
                     cout << setw(05) << "\aError !! ";
                     system("color 04");
-                    sleep(3);
                     cout << setw(05) << "\nInvalid choice.\n\n";
+                    sleep(3);
+                    system("pause");
+                    cout << endl;
                     system("color 07");
                 }
 
@@ -167,8 +169,10 @@ void DoubleLinkeList::TakeOrder(node *newNode)
                 {
                     cout << setw(05) << "\aError !! ";
                     system("color 04");
-                    sleep(3);
                     cout << setw(05) << "\nInvalid choice.\n\n";
+                    sleep(3);
+                    system("pause");
+                    cout << endl;
                     system("color 07");
                 }
                 newNode->orderDetails[new_order].order = "Lec 02";
@@ -190,8 +194,10 @@ void DoubleLinkeList::TakeOrder(node *newNode)
                 {
                     cout << setw(05) << "\aError !! ";
                     system("color 04");
-                    sleep(3);
                     cout << setw(05) << "\nInvalid choice.\n\n";
+                    sleep(3);
+                    system("pause");
+                    cout << endl;
                     system("color 07");
                 }
                 newNode->orderDetails[new_order].order = "Lec 03";
@@ -213,8 +219,10 @@ void DoubleLinkeList::TakeOrder(node *newNode)
                 {
                     cout << setw(05) << "\aError !! ";
                     system("color 04");
-                    sleep(3);
                     cout << setw(05) << "\nInvalid choice.\n\n";
+                    sleep(3);
+                    system("pause");
+                    cout << endl;
                     system("color 07");
                 }
                 newNode->orderDetails[new_order].order = "Lec 04";
@@ -236,8 +244,10 @@ void DoubleLinkeList::TakeOrder(node *newNode)
                 {
                     cout << setw(05) << "\aError !! ";
                     system("color 04");
-                    sleep(3);
                     cout << setw(05) << "\nInvalid choice.\n\n";
+                    sleep(3);
+                    system("pause");
+                    cout << endl;
                     system("color 07");
                 }
                 newNode->orderDetails[new_order].order = "Lec 05";
@@ -259,8 +269,10 @@ void DoubleLinkeList::TakeOrder(node *newNode)
                 {
                     cout << setw(05) << "\aError !! ";
                     system("color 04");
-                    sleep(3);
                     cout << setw(05) << "\nInvalid choice.\n\n";
+                    sleep(3);
+                    system("pause");
+                    cout << endl;
                     system("color 07");
                 }
                 newNode->orderDetails[new_order].order = "Lec 06";
@@ -282,8 +294,10 @@ void DoubleLinkeList::TakeOrder(node *newNode)
                 {
                     cout << setw(05) << "\aError !! ";
                     system("color 04");
-                    sleep(3);
                     cout << setw(05) << "\nInvalid choice.\n\n";
+                    sleep(3);
+                    system("pause");
+                    cout << endl;
                     system("color 07");
                 }
                 newNode->orderDetails[new_order].order = "Lec 07";
@@ -294,8 +308,10 @@ void DoubleLinkeList::TakeOrder(node *newNode)
             default:
                 cout << setw(05) << "\aError !! ";
                 system("color 04");
+                cout << setw(05) << "\nInvalid choice.\n\n";
                 sleep(3);
-                cout << setw(05) << "\nPlease enter a valid choice.\n\n";
+                system("pause");
+                cout << endl;
                 system("color 07");
                 flag2 = true;
             }
@@ -326,8 +342,10 @@ void DoubleLinkeList::TakeOrder(node *newNode)
             {
                 cout << setw(05) << "\aError !! ";
                 system("color 04");
+                cout << setw(05) << "\nInvalid choice.\n\n";
                 sleep(3);
-                cout << setw(05) << "\nPlease enter a valid choice.\n\n";
+                system("pause");
+                cout << endl;
                 system("color 07");
                 flag = false;
             }
@@ -402,8 +420,10 @@ void DoubleLinkeList::insertOrderAtPosition()
     {
         cout << setw(05) << "\aError !! ";
         system("color 04");
-        sleep(3);
         cout << "\nInvalid position. Please enter a non-negative position." << endl;
+        sleep(3);
+        system("pause");
+        cout << endl;
         system("color 07");
         back();
     }
@@ -553,8 +573,10 @@ void DoubleLinkeList::deleteOrderByPosition()
     {
         cout << setw(05) << "\aError !! ";
         system("color 04");
-        sleep(3);
         cout << "\nInvalid position. Please enter a non-negative position." << endl;
+        sleep(3);
+        system("pause");
+        cout << endl;
         system("color 07");
         back();
     }
@@ -753,8 +775,10 @@ void DoubleLinkeList::back()
         default:
             cout << setw(05) << "\aError !! ";
             system("color 04");
-            sleep(3);
             cout << setw(05) << "\nPlease enter a valid choice.\n\n";
+            sleep(3);
+            system("pause");
+            cout << endl;
             system("color 07");
             break;
         }
@@ -836,14 +860,13 @@ void DoubleLinkeList::dashboard()
         default:
             cout << setw(05) << "\aError !! ";
             system("color 04");
-            sleep(3);
             cout << setw(05) << "\nPlease enter a valid choice.\n\n";
+            sleep(3);
+            system("pause");
+            cout << endl;
             system("color 07");
             break;
         }
-        cout << "Press Enter to continue...";
-        cin.ignore();
-        cin.get();
     }
 }
 
@@ -865,5 +888,6 @@ int main()
 {
     DoubleLinkeList librarySystem;
     librarySystem.startLibrarySystem();
+
     return 0;
 }
