@@ -37,6 +37,9 @@ Here's an overview of our team:
 | Team Member         | Moataz Mahmoud Mohamed      | 42210055    | A1    |
 
 **Instructor:**
+- **Dr.Ali Hamza**
+
+**Instructor:**
 - **Eng. Dina Ehab**
 
 ## Library Management System
