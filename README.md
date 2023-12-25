@@ -36,7 +36,7 @@ Here's an overview of our team:
 | Team Member         | Ahmed Haytham Ragab         | 42210126    | A1    |
 | Team Member         | Moataz Mahmoud Mohamed      | 42210055    | A1    |
 
-**Instructor:**
+**Lecturer:**
 - **Dr.Ali Hamza**
 
 **Instructor:**
